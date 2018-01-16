@@ -48,3 +48,22 @@ h1
 	
 
 }
+
+#pic
+{
+	position: absolute;
+	top: 5px;
+	left: 470px;
+	height: 180px;
+	width: 130px;
+
+}
+
+#pic2
+{
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	height: 180px;
+	width: 130px;
+}
