@@ -1,69 +1,99 @@
+body {
+	background-color: #fcecc9;
+	background-image: url('sing.png');
+	background-repeat: no-repeat;
+	background-size: 20em;
+	background-position-y: 3em;
+	background-position-x: 32em;
+}
 
-#fact
-{
+#fact {
 	position: absolute;
 	top: 150px;
-	left: 400px;
-	height: 380px;
-	width: 520px;
-	background-color: #34495e;
+	left: 380px;
+	height: 480px;
+	width: 580px;
 	color: white;
-	font-family: 'Kavivanar', cursive;
+	font-family: 'Kreon', serif;
 	border-radius: 5px;
-
 }
 
-h1
-{
-	
-	text-align: center;
-}
-
-#joke
-{
+#joke {
 	position: absolute;
-    left: 200px;
-    top: 120px;
-    height: 50px;
-    width: 100px;
-    background-color: #64DD17;
+	left: 250px;
+	top: 100px;
+	height: 50px;
+	width: 100px;
+	background-color: #66ced6;
 	box-shadow: none;
-	color:white;
+	color: white;
 	font-size: 18px;
-    border-color: #64DD17;
-  	border-style: solid;
-  	border-radius: 5px;
-  	font-family: 'Dosis', sans-serif;
+	border-color: #66ced6;
+	border-style: solid;
+	border-radius: 5px;
+	font-family: 'Kreon', serif;
 }
 
-#chuck
-{
+#joke:hover {
+	background-color: #66ced6;
+	border-color: #05668d;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+#chuck {
 	position: absolute;
 	top: 180px;
-	left: 30px;
-	width: 450px;
-	color:white;
-	font-size: 20px;
-	font-family: 'Dosis', sans-serif;
-	
-
+	left: -80px;
+	width: 850px;
+	color: black;
+	font-size: 25px;
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
 }
 
-#pic
-{
-	position: absolute;
-	top: 5px;
-	left: 470px;
-	height: 180px;
-	width: 130px;
-
-}
-
-#pic2
-{
-	position: absolute;
-	top: 5px;
-	left: -10px;
-	height: 180px;
-	width: 130px;
+@media only screen and (max-width: 600px) {
+	body {
+		background-position-y: 3em;
+		background-position-x: 6em;
+	}
+	#fact {
+		position: absolute;
+		top: 150px;
+		left: 10px;
+		height: 380px;
+		width: 480px;
+		color: white;
+		font-family: 'Kreon', serif;
+		border-radius: 5px;
+	}
+	#joke {
+		position: absolute;
+		left: 180px;
+		top: 100px;
+		height: 50px;
+		width: 100px;
+		background-color: #66ced6;
+		box-shadow: none;
+		color: white;
+		font-size: 18px;
+		border-color: #66ced6;
+		border-style: solid;
+		border-radius: 5px;
+		font-family: 'Kreon', serif;
+	}
+	#chuck {
+		position: absolute;
+		top: 180px;
+		left: 10px;
+		width: 450px;
+		color: black;
+		font-size: 20px;
+		text-align: justify;
+		font-family: 'Roboto', sans-serif;
+	}
 }
